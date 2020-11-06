@@ -37,19 +37,22 @@ body {
 input[type="number"] {
     background: transparent;
     border: none;
-    width: 8vh;
+    width: auto;
+	max-width: 158px;
 }
 
 input[type="text"] {
     background: transparent;
-    width: 19vh;
+    width: auto;
     border-bottom: 1px solid;
 }
 
 .cont-content {
-    height: 40vh;
+    height: auto;
+	min-height: 365px;
     background-size: cover;
-    width: 82vh;
+    width: auto;
+	min-width: 756px;
     background-image: url(../background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -81,7 +84,7 @@ table {
     text-align: center;
     float: center;
     margin-top: -20px;
-    font-size: 1.4vw;
+    font-size: 40px;
 }
 
 .transfers-info {
@@ -89,7 +92,7 @@ table {
     text-align: center;
     float: center;
     margin-top: -20px;
-    font-size: 0.9vw;
+    font-size: 20px;
 }
 
 .transfer-info {
@@ -97,27 +100,27 @@ table {
     text-align: center;
     float: center;
     margin-top: -20px;
-    font-size: 0.8vw;
+    font-size: 20px;
 }
 
 #dollars {
     text-decoration: underline;
-    font-size: 1.2vw;
+    font-size: 20px;
 }
 
 #gold {
     text-decoration: underline;
-    font-size: 1.2vw;
+    font-size: 20px;
 }
 
 #iconGold {
-    font-family: wwi;
+    font-family: myFirstFont;
     text-decoration: underline;
-    font-size: 1.4vw;
+    font-size: 20px;
 }
 
 #iconGold2 {
-    font-family: wwi;
+    font-family: myFirstFont;
 }
 
 .btn-options {
@@ -138,21 +141,21 @@ table {
 #bankName {
     text-align: center;
     font-family: ancient;
-    font-size: 2.2vw;
+    font-size: 30px;
 }
 
 #bankDesc {
     text-align: center;
     font-family: cher;
-    font-size: 2.5vw;
+    font-size: 30px;
 }
 
 #textinfo {
     color: white;
-    font-size: 0.8vw;
+    font-size: 10px;
 }
 
 #textid {
     color: white;
-    font-size: 0.8vw;
+    font-size: 10px;
 }
